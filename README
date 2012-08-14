@@ -1,0 +1,12 @@
+Twig Constant Extension
+==========================
+For any question : timothee.moulin@gmail.com
+
+
+How to use :
+==========================
+1. Copy the extension under /Acme/TwigExtensionBundle/Twig/ConstantExtension.php
+2. Add the following lines in /Acme/TwigExtensionBundle/Resources/config/services.yml (or in any loaded configuration file (eg config.yml)
+3. Call the function from your Twig template as following:
+   {%if isConstDefined('myConstant')%}
+   It will return you true if the constant is already defined and false otherwise.
