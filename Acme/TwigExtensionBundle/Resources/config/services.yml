@@ -1,0 +1,5 @@
+services:
+    twig.constant_extension:
+        class: Dev\AnalyticsBundle\Twig\ConstantExtension
+        tags:
+            - {name: twig.extension }
